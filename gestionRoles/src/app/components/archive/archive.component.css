@@ -1,0 +1,28 @@
+.fal {
+    float: right;
+    /* color: #f359 */
+}
+
+.fal :hover {
+    color: #f359
+}
+
+.container {
+    background-color: #667EEA
+}
+
+.btn-lg {
+    float: right;
+}
+
+button {
+    float: right;
+}
+tr.c {
+    -webkit-text-decoration-line: line-through; /* Safari */
+    text-decoration-line: line-through; 
+    text-emphasis-color: #515464;
+ }
+ i{
+     text-size-adjust: 14px;
+ }

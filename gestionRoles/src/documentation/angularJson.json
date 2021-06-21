@@ -1,0 +1,313 @@
+{
+    "__collections__": {
+        "USER_ROLES": {
+            "admin": {
+                "finance": {
+                    "write": true,
+                    "read": true,
+                    "visible": true,
+                    "delete": true
+                },
+                "admin": {
+                    "delete": true,
+                    "visible": true,
+                    "write": true,
+                    "read": true
+                },
+                "addressbook": {
+                    "write": true,
+                    "read": true,
+                    "delete": true,
+                    "visible": true
+                },
+                "formateur": {
+                    "read": true,
+                    "write": true,
+                    "visible": true,
+                    "delete": true
+                },
+                "etudiant": {
+                    "visible": true,
+                    "read": true,
+                    "write": true,
+                    "delete": true
+                },
+                "__collections__": {}
+            },
+            "etudiant": {
+                "finance": {
+                    "write": false,
+                    "read": false,
+                    "delete": false,
+                    "visible": false
+                },
+                "addressbook": {
+                    "write": true,
+                    "delete": true,
+                    "read": true,
+                    "visible": true
+                },
+                "etudiant": {
+                    "delete": false,
+                    "read": true,
+                    "visible": true,
+                    "write": true
+                },
+                "admin": {
+                    "visible": false,
+                    "delete": false,
+                    "read": false,
+                    "write": false
+                },
+                "formateur": {
+                    "write": false,
+                    "read": false,
+                    "visible": false
+                },
+                "__collections__": {}
+            },
+            "finance": {
+                "etudiant": {
+                    "delete": false,
+                    "read": false,
+                    "visible": false,
+                    "write": false
+                },
+                "finance": {
+                    "delete": false,
+                    "write": true,
+                    "visible": true,
+                    "read": true
+                },
+                "formateur": {
+                    "write": false,
+                    "delete": false,
+                    "read": false,
+                    "visible": false
+                },
+                "admin": {
+                    "delete": false,
+                    "read": false,
+                    "write": false,
+                    "visible": false
+                },
+                "__collections__": {}
+            },
+            "formateur": {
+                "finance": {
+                    "read": false,
+                    "visible": false,
+                    "write": false,
+                    "delete": false
+                },
+                "etudiant": {
+                    "visible": false,
+                    "write": false,
+                    "delete": false,
+                    "read": false
+                },
+                "formateur": {
+                    "visible": true,
+                    "delete": false,
+                    "write": true,
+                    "read": true
+                },
+                "admin": {
+                    "delete": false,
+                    "write": false,
+                    "read": false,
+                    "visible": false
+                },
+                "__collections__": {}
+            }
+        },
+        "USER_SETTINGS": {
+            "Av15PgPOHTQ3oE6cL4aI": {
+                "pseudo": "ludo",
+                "nom": "NDI",
+                "prenom": "Ludovic",
+                "motDePass": "22425666d",
+                "email": "olivierndi57@gmail.com",
+                "dateCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1620950400,
+                        "_nanoseconds": 0
+                    }
+                },
+                "adresse": "Ouest Foire",
+                "tel": "+221771620433",
+                "role": "admin",
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1621468800,
+                        "_nanoseconds": 0
+                    }
+                },
+                "__collections__": {}
+            },
+            "zdGoBkJZ5URq7mNFUuHIqmFU0RH2": {
+                "__collections__": {}
+            }
+        },
+        "users": {
+            "163qdcNqtfAfDhWHvJsf": {
+                "status": 1,
+                "email": "dallahconf123@gmail.com",
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624273266,
+                        "_nanoseconds": 947000000
+                    }
+                },
+                "adresse": ":lk;j,nhbgfvcd",
+                "nom": "iuyhtgrfedLKJ?HNBGF",
+                "prenom": "lokiyjutrhgtrf",
+                "pseudo": "mkhj,gbfvdc",
+                "telephone": 774693214596,
+                "password": "340-9a-zA-Z832",
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1623426215,
+                        "_nanoseconds": 810000000
+                    }
+                },
+                "role": "Formateur",
+                "__collections__": {}
+            },
+            "ELToo3yBS7kwb49Aa6eR": {
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624269070,
+                        "_nanoseconds": 658000000
+                    }
+                },
+                "telephone": 774455,
+                "nom": "Ludo",
+                "email": "ludovendi@gmail.com",
+                "prenom": "Andre",
+                "password": "admin1234",
+                "adresse": "Liberté 6",
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624269070,
+                        "_nanoseconds": 658000000
+                    }
+                },
+                "status": 0,
+                "role": "Admin",
+                "pseudo": "Pseudo",
+                "__collections__": {}
+            },
+            "ME4HgCapPguQwY19nk8s": {
+                "password": "490-9a-zA-Z531",
+                "prenom": "Toure",
+                "telephone": 74185596226,
+                "nom": "Tidiane",
+                "status": 0,
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624270995,
+                        "_nanoseconds": 279000000
+                    }
+                },
+                "pseudo": "Toure1",
+                "role": "Formateur",
+                "adresse": "Liberté 6",
+                "email": "ttoure@simplon.co",
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624270995,
+                        "_nanoseconds": 279000000
+                    }
+                },
+                "__collections__": {}
+            },
+            "NmcxUUxXZmih8lpWJjoI": {
+                "role": "Admin",
+                "status": 0,
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624270705,
+                        "_nanoseconds": 971000000
+                    }
+                },
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1623431215,
+                        "_nanoseconds": 410000000
+                    }
+                },
+                "prenom": "lala",
+                "pseudo": "lili",
+                "password": "540-9a-zA-Z479",
+                "telephone": 771816807,
+                "nom": "lolo",
+                "adresse": "Boumbel",
+                "email": "olivierndi57@gmail.com",
+                "__collections__": {}
+            },
+            "gjIFTNskTW1DRoACLI5W": {
+                "pseudo": "Thiampo1",
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624269670,
+                        "_nanoseconds": 332000000
+                    }
+                },
+                "role": "Etudiant",
+                "prenom": "Thiampo",
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1624270800,
+                        "_nanoseconds": 233000000
+                    }
+                },
+                "password": "130-9a-zA-Z352",
+                "status": 0,
+                "email": "babacacthiam@gmail.com",
+                "telephone": 745522122,
+                "nom": "Mam Mor",
+                "adresse": "Guediewaye",
+                "__collections__": {}
+            },
+            "k1bKzNhNp91UhlJjktkT": {
+                "nom": "ndi",
+                "dateModification": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1623785390,
+                        "_nanoseconds": 671000000
+                    }
+                },
+                "adresse": "Olympic",
+                "password": "340-9a-zA-Z553",
+                "email": "toutachatsn@gmail.com",
+                "datedeCreation": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1623451871,
+                        "_nanoseconds": 714000000
+                    }
+                },
+                "status": 1,
+                "role": "Formateur",
+                "pseudo": "pseudoé",
+                "prenom": "ndi",
+                "telephone": 784514894896516,
+                "__collections__": {}
+            }
+        }
+    }
+}

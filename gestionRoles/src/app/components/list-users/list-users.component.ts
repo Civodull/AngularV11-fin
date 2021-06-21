@@ -20,7 +20,7 @@ startAt=new Subject();
 endAt = new Subject();
 startobs =this.startAt.asObservable();
 endobs = this.endAt.asObservable();
-
+page:number =1
   //fin
 
   //les messages d'erreurs

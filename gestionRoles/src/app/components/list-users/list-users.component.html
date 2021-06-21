@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <span class="mt-5" align="center"> <h3>ESPACE ADMIN </h3>
     </span>
 <div class="container mt-3">
@@ -8,9 +9,9 @@
              </span>
             <br/>
             <br/>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <input type="text" [(ngModel)]="searchterm" class="form-control" placeholder="Rechercher un utilisateur..." (change)="search($event)">
-            </div>
+            </div> -->
             <div class="table-responsive-sm">
                 <h6 style="margin-top:25px;" align="center" *ngIf="users.length == 0"> Aucun utilisateur à afficher vérifiez aussi votre connexion </h6>
                 <table *ngIf="users.length > 0" class="table mt-4 table-striped">
@@ -29,6 +30,7 @@
                     </thead>
                     <tbody class="text" *ngFor="let item of users">
                         <tr *ngIf="item.status ==0">
+                        <!-- <ul  *ngFor="let item of users | paginate: { itemsPerPage: 10, currentPage: page }"> -->
                             <td>{{item.pseudo}}</td>
                             <td>{{item.nom}}</td>
                             <td>{{item.prenom}}</td>
@@ -38,6 +40,8 @@
                             <td>{{item.role}}</td>
                             <td><i title="Modifier cet utilisateur" class="fas fa-edit fa-lg text-info" [routerLink]="['/edith/', item.id]"></i></td>
                             <td><i title="Supprimer cet utilisateur" (click)="deleteUser(item.id)" class="far fa-trash-alt  text-danger"></i></td>
+                            <!-- <app-list-users (pageChange)="page = $event"> </app-list-users>
+                        </ul> -->
                         </tr>
                     </tbody>
                 </table>
